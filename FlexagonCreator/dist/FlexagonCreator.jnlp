@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FlexagonCreator.jnlp">
+  <information>
+    <title>FlexagonCreator</title>
+    <vendor>borja</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FlexagonCreator.jar" size="26774" download="eager" />
+    <jar href="lib\ImageUtils.jar" size="12955" download="eager" />
+    <jar href="lib\bcmail-jdk15on-1.64.jar" size="109808" download="eager" />
+    <jar href="lib\bcprov-jdk15on-1.64.jar" size="4771726" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\fontbox-2.0.19.jar" size="1561265" download="eager" />
+    <jar href="lib\jbig2-imageio-3.0.2.jar" size="151812" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\pdfbox-2.0.19.jar" size="2715618" download="eager" />
+    <jar href="lib\pdfbox-app-2.0.17.jar" size="9250067" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="flexagoncreator.FlexagonCreator"  name="FlexagonCreator" />
+  <update check="always"/>
+</jnlp>
